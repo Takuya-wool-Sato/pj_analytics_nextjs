@@ -41,9 +41,6 @@ export const options: NextAuthOptions = {
         ],
         callbacks: {
             jwt: async ({token, user, account, profile, isNewUser}) => {
-                // 注意: トークンをログ出力してはダメです。
-                console.log('in jwt', {user, token, account, profile})
-
                 if (user) {
                     token.user = user;
                     const u = user as any
@@ -55,7 +52,6 @@ export const options: NextAuthOptions = {
                 return token;
             },
             session: ({session, token}) => {
-                console.log("in session", {session, token});
                 token.accessToken
                 return {
                     ...session,
