@@ -38,7 +38,12 @@ export default async function Swr() {
                 <li>・SWRでデータフェッチ（猫画像取得）</li>
               </ul>
               {data.map((item: any) => (
-                <img src={item.url} alt="" className="max-h-24 w-24" />
+                <img
+                  src={item.url}
+                  alt=""
+                  className="max-h-24 w-24"
+                  key={item.id}
+                />
               ))}
             </div>
           </div>
