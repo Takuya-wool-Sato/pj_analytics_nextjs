@@ -50,7 +50,7 @@ export default function Header() {
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                     aria-current="page"
                   >
-                    fetch
+                    データ取得(fetch)
                   </a>
                 </li>
                 <li>
@@ -58,7 +58,7 @@ export default function Header() {
                     href="/auth"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    auth
+                    認証(auth.js)
                   </a>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ export default function Header() {
                     href="/swr"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    swr
+                    データ取得(swr)
                   </a>
                 </li>
                 <li>
@@ -74,7 +74,15 @@ export default function Header() {
                     href="/vitest"
                     className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                   >
-                    vitest
+                    テスト(vitest)
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/newt"
+                    className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  >
+                    投稿(Newt)
                   </a>
                 </li>
               </ul>
